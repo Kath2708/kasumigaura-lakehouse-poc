@@ -14,7 +14,7 @@ El proyecto automatiza la ingesta, validación de calidad físico-química y exp
 Autora
 
 Kathiana Murillo García
-Máster en Análisis y Visualización de Datos Masivos — UNIR (2025–2027)
+Máster en Análisis y Visualización de Datos Masivos — UNIR (2026–2027)
 
 Dataset
 Fuente: Lake Kasumigaura Database — NIES (National Institute for Environmental Studies, Japan)
