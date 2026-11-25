@@ -1,8 +1,10 @@
-# kasumigaura-lakehouse-poc
+# Kasumigaura Lakehouse PoC
 
-Kasumigaura Lakehouse PoC
+> Medallion Architecture (Bronze → Silver → Gold) aplicada al monitoreo limnológico del Lago Kasumigaura (Japón, 1977–2024).
 
-TFM — Máster Universitario en Análisis y Visualización de Datos Masivos / Visual Analytics and Big Data
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+**TFM** — Máster Universitario en Análisis y Visualización de Datos Masivos / Visual Analytics and Big Data  
 Universidad Internacional de La Rioja (UNIR)
 
 Descripción
@@ -57,7 +59,7 @@ NIES Excel
 │  SILVER — Calidad y estandarización │
 │  Reglas físico-químicas (pH, DO,    │
 │  temperatura, nutrientes)           │
-│  Flag: VALID / NULL / ANOMALY /     │
+│  Flag: VALID / NULL_KEY / ANOMALY / │
 │         DUPLICATE                   │
 └──────────────────┬──────────────────┘
                    │
@@ -100,7 +102,9 @@ Despliegue en producción
 Procesamiento en streaming
 Orquestación automática (Apache Airflow)
 Modelos de Machine Learning o LLMs
-Licencia y citación del dataset
+## Licencia
+
+El código fuente de este proyecto está publicado bajo la [licencia MIT](LICENSE).
 
 Los datos del NIES se utilizan bajo los términos de uso académico del Lake Kasumigaura Database. Citar como:
 
